@@ -1,0 +1,3 @@
+require 'nw_plugin_geolocation_point/nw_loader/nw_plugins/initial_load'
+require 'nw_plugin_geolocation_point/models/niiwin/nw_attribute_type/geolocation_point'
+require 'nw_plugin_geolocation_point/models/niiwin/nw_attribute_type/geolocation_point/nw_config_contract'

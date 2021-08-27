@@ -1,0 +1,9 @@
+-# Expects these locals:
+-# * child_index (unique string)
+-# * nw_attribute (OpenStruct)
+-# * parent_name_segment (String, used when nested inside of nw_table form)
+
+= render partial: "niiwin/nw_app_structure/nw_attribute_types/basic_form",
+          locals: { child_index: child_index,
+                    nw_attribute: nw_attribute,
+                    parent_name_segment: parent_name_segment }

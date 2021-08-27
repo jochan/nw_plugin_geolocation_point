@@ -1,0 +1,3 @@
+-# Renders form input for a string nw_attribute
+-# Expects these locals: f [FormBuilder], nw_attribute [NwAttribute]
+= f.text_field(nw_attribute.id, class: "form-control", required: nw_attribute.config[:required] ? "required" : false)
