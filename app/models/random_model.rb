@@ -1,2 +1,0 @@
-class RandomModel
-end

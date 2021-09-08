@@ -9,8 +9,6 @@ module NwPluginGeolocationPoint
 
         def execute
           puts "InitialLoad for Geolocation Point attribute type plugins"
-
-          # ActionController::Base.append_view_path("/Users/jochan/Development/nw_plugin_geolocation_point/lib/nw_plugin_geolocation_point/views")
         end
 
       end
