@@ -8,7 +8,7 @@ module NwPluginGeolocationPoint
         include Niiwin::NwLoader::NwPlugins::InitialLoadMixin
 
         def execute
-          puts "InitialLoad for Geolocation Point attribute type plugins"
+          puts "InitialLoad for Geolocation Point attribute type plugin"
         end
 
       end
